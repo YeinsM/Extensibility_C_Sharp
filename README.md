@@ -40,3 +40,31 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Development
 ~~~
+
+If you open a browser to http://localhost:9874/people, you will see data from the service.
+
+You can leave this terminal open for all of the samples; each sample uses the same web service.
+
+To stop the service, press "Ctrl+C" in the terminal.
+
+Running the Web Application
+To run the web application (PeopleViewer), use the following steps:
+
+Open a terminal in the "PeopleViewer" folder.
+Type "dotnet run". (This will rebuild the project if necessary.)
+The web application should start and show the following info:
+~~~
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://localhost:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+~~~
+
+To run the application, open a browser to http://localhost:5000.
+
+When you are done, you can stop the web server by going back to the terminal window and pressing "Ctrl+C".
+
+Alternately, you can run the web application from within Visual Studio Code by using the integrated debugger. For more information, see Visual Studio Code - Debugging.
