@@ -23,3 +23,20 @@ Note: If you get the following error:
 'No connection could be made because the target machine actively refused it. [::ffff:127.0.0.1]:9874 (localhost:9874)'
      Then the web service is not running. Check the Troubleshooting Guide for help.
 ~~~
+
+When using Visual Studio Code, you will need to start the web service project separately from the web application.
+
+Starting the Service
+For the projects that have a "People.Service" folder, use the following steps to start the service:
+
+1. Open a terminal in the "People.Service" folder.
+2. Type "dotnet run". (This will rebuild the project if necessary.)
+3. The service should start and show the following info:
+~~~
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://localhost:9874
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+~~~
