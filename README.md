@@ -17,7 +17,7 @@ To run a project, click F5 or use "Start debugging" from the toolbar or Debug me
 
 Your default browser will automatically open to http://localhost:5000 (the location of the web application). When you are done, close the browser window.
 
-     Note: If you get the following error:
+Note: If you get the following error:
 
 ~~~
 'No connection could be made because the target machine actively refused it. [::ffff:127.0.0.1]:9874 (localhost:9874)'
